@@ -83,6 +83,19 @@ h1 {
   font-weight: 500;
 }
 
+h1.title {
+  font-size: 24px;
+  line-height: 24px;
+	font-weight: 600;
+	color: var(--color-blue);
+}
+
+p.intro {
+  margin: 2rem;
+  font-weight: 500;
+  font-size: calc(var(--font-size) - 2px);
+}
+
 h2 {
   padding: 0;
   margin: 16px 0;
@@ -110,6 +123,12 @@ h1 a {
   border-bottom: var(--border-style);
   align-items: center;
 }
+
+#content.landing {
+	margin: 5rem;
+	text-align: center;
+}
+
 #header h1 {
   padding-left: var(--panel-padding);
   flex: 1;
