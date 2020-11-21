@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hi-artem/three.js/issues"
   },
-  "homepage": "https://github.com/hi-artem/three.js#readme"
+  "homepage": "https://github.com/hi-artem/three.js#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
 }
